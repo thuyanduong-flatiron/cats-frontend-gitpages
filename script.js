@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 function fetchCats(){
-  fetch(`http://localhost:3000/cats`)
+  fetch(`https://cats-backend.herokuapp.com/cats`)
   .then(res => res.json())
   .then(data => {
     //data is an array of cat objects
